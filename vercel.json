@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "cd \"prajju portfolio\" && npm run build",
+  "outputDirectory": "prajju portfolio/dist/public",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
